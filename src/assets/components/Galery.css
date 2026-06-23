@@ -1,0 +1,104 @@
+.galery_container{
+    width: 100%;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 1);
+    box-sizing: border-box;
+    padding: 20px 300px;
+}
+.galery_pretitle p{
+color: var(--marron-color);
+
+}
+.galery_title{
+    display: flex;
+}
+.galery_title h1{
+    color: white;
+    font-family: "Bebas Neue", sans-serif; 
+    font-size: 60px;
+    margin: 0px;
+    width: 95%;
+}
+.galery_title p {
+    color: grey;
+    
+}
+.galery_images{
+    height: 500px;
+    display: flex;
+    gap: 20px;
+}
+.big_photo{
+    background-image: url("/img/gallery-1.png");
+    background-size: 100%;
+    background-position: center;
+    height: 500px;
+    width: 50%;
+     transition: background-size .4s ease;
+}
+.big_photo:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1),
+                    rgba(0, 0, 0, 0.5)),url("/img/gallery-1.png");
+ 
+  background-size: 110%;
+}
+
+.tree_photos{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.divisiones{
+    display: flex;
+    gap:25px ;
+}
+.divisiones{
+    width: 100%;
+    height: 50%;
+}
+.division1{
+    width: 50%;
+    background-image: url("/img/gallery-2.png");
+    background-size: 100%;
+    background-position: center;
+     transition: background-size .4s ease;
+    
+}
+.division1:hover{
+ background-image: linear-gradient(rgba(0, 0, 0, 0.1),
+                    rgba(0, 0, 0, 0.5)),url("/img/gallery-2.png");  
+background-size: 110%;
+ 
+}
+.division2{
+    width: 50%;
+    background-image: url("/img/gallery-3.png");
+    background-size: 100%;
+    background-position: center;
+     transition: background-size .4s ease;
+}
+.division2:hover{
+ background-image: linear-gradient(rgba(0, 0, 0, 0.1),
+                    rgba(0, 0, 0, 0.5)),url("/img/gallery-3.png");  
+ background-size: 110%;
+ 
+}
+.imagen_debajo{
+   
+    width: 100%;
+}
+.imagen_sillon{
+    width: 100%;
+    height: 237.5px;
+     background-image: url("/img/hero-barbershop.png");
+    background-size: 100%;
+    background-position: center;
+     transition: background-size .4s ease;
+}
+.imagen_sillon:hover{
+ background-image: linear-gradient(rgba(0, 0, 0, 0.1),
+                    rgba(0, 0, 0, 0.5)),url("/img/hero-barbershop.png");  
+ background-size: 110%;
+ 
+}

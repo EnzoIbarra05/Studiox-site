@@ -1,18 +1,21 @@
-.navbar_container{
-    display: flex;
-    background-color: rgb(37, 37, 37);
-   
+.navbar_container {
+  display: flex;
+  box-sizing: border-box;
+  padding: 0px 300px;
   position: sticky;
   top: 0;
   z-index: 1000;
 
+  background-color: rgba(37, 37, 37, 0.2); /* transparente */
+  backdrop-filter: blur(10px); /* efecto glass */
+  transition: background-color 0.3s ease;
 }
 
 .navbar_logo{
     display: flex;
     width: 20%;
     color: white;
-    justify-content: end;
+    justify-content: start;
 }
 .logo_x{
     color:var(--marron-color);
@@ -41,7 +44,7 @@
 .navbar_reserve{
     width: 20%;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
 }
 .navbar_reserve button{
