@@ -1,0 +1,110 @@
+
+.hero_container{
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                    rgba(0, 0, 0, 1)),url('./../../../public/img/hero-barbershop.png');
+    background-size: cover;
+    background-position: center;
+    height:1000px ;
+    box-sizing: border-box;
+    padding: 80px 300px;
+    
+}
+.hero_pretitle{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+.hero_pretitle img{
+    width: 20px;
+    height: 20px;
+}
+
+.hero_pretitle h5{
+    color: var(--marron-color);
+    letter-spacing: 3px;
+    font-weight: 200;
+}
+.hero_title{
+    color: white;
+}
+.hero_title h1{
+ font-family: "Bebas Neue", sans-serif;      
+font-size: 120px;
+font-weight: bold;
+line-height: 0.8;
+margin: 10px 0px;
+
+}
+.precision{
+    color: var(--marron-color);
+}
+.hero_paragraph{
+    color: var(--seccion-color);
+    width: 600px;
+    font-size: 20px;
+    margin: 40px 0px;
+    
+}
+.hero_buttons{
+    display: flex;
+    gap: 10px;
+    width: 600px;
+    padding-bottom: 40px;
+    border-bottom: 0.5px solid rgb(97, 97, 97);
+   
+}
+.hero_buttons button{
+     padding: 20px 40px;
+     border-radius: 5px;
+     
+     
+}
+.hero_button1{
+    background-color: var(--marron-color);
+    font-weight: bold;
+    border: none;
+}
+.hero_button1:hover{
+    cursor: pointer;
+    background-color: #a78855;
+}
+.hero_button2:hover{
+    cursor: pointer;
+    color: var(--marron-color);
+    border: 0.1px solid var(--marron-color);
+}
+.hero_button2{
+    background-color: transparent;
+    border: 0.1px solid var(--seccion-color);
+    color: white;
+}
+.hero_cuality{
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;
+}
+.hero_cuality_container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+}
+.hero_icons img{
+    width: 25px;
+    height: 25px;
+}
+.hero_info {
+line-height: 0.3;
+}
+.hero_info h1{
+    color: white;
+    font-size: bold;
+    font-size: 25px;
+    
+}
+.hero_info p{
+    color: grey;
+    font-size: 14px;
+}
