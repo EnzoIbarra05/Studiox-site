@@ -1,0 +1,60 @@
+.navbar_container{
+    display: flex;
+    background-color: rgb(37, 37, 37);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar_logo{
+    display: flex;
+    width: 20%;
+    color: white;
+    justify-content: end;
+}
+.logo_x{
+    color:var(--marron-color);
+    border: 1px solid var(--marron-color);
+    padding: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+   margin-right: 6px;
+}
+.navbar_seccion{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    
+}
+.navbar_seccion a {
+    text-decoration: none;
+    color: var(--seccion-color);
+}
+.navbar_seccion a:hover{
+    color: white;
+}
+.navbar_reserve{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar_reserve button{
+    background-color: var(--marron-color);
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+.navbar_reserve button:hover{
+    background-color: black;
+    color: var(--marron-color);
+    cursor: pointer;
+    
+}
