@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "url": "/img/product-pomade.png",
+    "name": "POMADA MATE",
+    "price": "USD 18",
+    "description":"Fijación fuerte, acabado mate. Para peinados con cuerpo y control todo el día."
+  },
+ {
+    "id": 2,
+    "url": "/img/product-beardoil.png",
+    "name": " ACEITE DE BARBA",
+    "price": "USD 22",
+    "description":"Hidrata, suaviza y aporta brillo natural. Aroma amaderado de larga duración."
+  },
+ {
+    "id": 3,
+    "url": "/img/product-shampoo.png",
+    "name": "SHAMPOO PREMIUM",
+    "price": "USD 16",
+    "description":"Limpieza profunda sin resecar. Apto para uso diario en todo tipo de cabello."
+  },
+  {
+    "id": 4,
+    "url": "/img/product-kit.png",
+    "name": "KIT DE AFEITADO",
+    "price": "USD 54",
+    "description":"Estuche de piel con navaja, brocha y peine. El regalo perfecto para el caballero."
+  }
+]

@@ -1,0 +1,67 @@
+.product_container{
+        width: 100%;
+    height: 800px;
+    background-color: rgb(10, 10, 10);
+    box-sizing: border-box;
+    padding: 20px 300px;
+}
+.product_pretitle{
+  color: var(--marron-color); 
+
+}
+.product_title{
+    display: flex;
+    width: 100%;
+}
+.title_h1{
+    width: 50%;
+}
+.title_h1 h1{
+    font-family: "Bebas Neue", sans-serif; 
+    font-size: 60px;
+    margin: 0px;
+    color: white;
+}
+.parragraph_p{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    text-align: end;
+}
+.parragraph_p p{
+    color: grey;
+}
+.product_image img{
+    width: 280px;
+    height: 280px;
+}
+.product_cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.product_data{
+    margin: 10px;
+}
+.product_price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.card{
+    background-color: rgb(19, 19, 19);
+}
+.product_data h2{
+font-family: "Bebas Neue", sans-serif; 
+color: white;
+letter-spacing: 1px;
+}
+.product_data h3{
+    color: var(--marron-color);
+}
+.product_data p{
+    color: grey;
+}
