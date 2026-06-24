@@ -1,0 +1,102 @@
+.team_container{
+width: 100%;
+padding: 20px 300px;
+box-sizing: border-box;
+height: 900px;
+background-color: rgb(19, 16, 14);
+}
+.team_protitle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.team_protitle p{
+    color: var(--marron-color);
+    letter-spacing: 1px;
+    margin-bottom: 2px;
+
+}
+.team_title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.team_title h1{
+font-family: "Bebas Neue", sans-serif; 
+color: white;
+font-size: 50px;
+margin-top: 2px;
+margin-bottom: 5px;
+}
+.team_subtitle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.team_subtitle p{
+    color:grey;
+    margin-top: 0px;
+}
+.team_cards{
+width: 100%;
+display: flex;
+gap: 25px;
+justify-content: center;
+}
+.card{
+background-color: rgb(11, 9, 8);
+width: 280px;    
+height: auto;
+}
+.team_data{
+    margin:0px 10px 10px 10px;
+}
+.team_image img{
+    width: 280px;
+    height: 350px;
+    object-fit: cover;
+}
+.team_data h2{
+    color: white;
+    font-family: "Bebas Neue", sans-serif; 
+    letter-spacing: 1.5px;
+    margin-bottom: 4px;
+}
+.team_data h3{
+   color: var(--marron-color);
+   font-weight: 100;
+   font-size: 14px; 
+   margin-top: 4px;
+   margin-bottom: 4px;
+}
+.team_data h5{
+    margin-top: 4px;
+    color: grey;
+    font-weight: 100;
+}
+.team_data p{
+    color: rgb(149, 149, 149);
+    font-size:smaller;
+}
+.team_data a{
+   text-decoration: none;
+   color: #d2b381; 
+}
+.function{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.function img{
+    width: 25px;
+}
+.solicito{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.solicito img{
+    width: 25px;
+}
