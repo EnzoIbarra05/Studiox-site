@@ -8,6 +8,7 @@ import Galery from './assets/components/Galery.tsx'
 import Team from './assets/components/Team.tsx'
 import Product from './assets/components/Product.tsx'
 import Location from './assets/components/Location.tsx'
+import Footer from './assets/components/Footer.tsx'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Navbar/>
@@ -16,5 +17,6 @@ createRoot(document.getElementById('root')!).render(
     <Team/>
     <Product/>
     <Location/>
+    <Footer/>
   </StrictMode>,
 )
