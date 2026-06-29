@@ -3,13 +3,29 @@ import ubication from "./../../../public/img/ubicacion.png"
 import telephone from "./../../../public/img/llamar.png"
 import email from "./../../../public/img/email.png"
 import reloj from "./../../../public/img/reloj.png";
+import { useInView } from "react-intersection-observer";
 export default function Location(){
+    const { ref, inView } = useInView({
+    triggerOnce: true, // solo una vez
+    threshold: 0.2     // 20% visible
+  });
 return(
 <>
 <section id="location">
 <div className="location_container">
-<div className="location_pretitle"><p>VISITANOS</p></div>
-<div className="location_title"><h1>UBICACION Y CONTACTO</h1></div>
+<div className="location_pretitle"><p ref={ref}
+      className={
+        inView
+          ? "animate__animated animate__slideInLeft"
+          : "hidden"
+      }>VISITANOS</p></div>
+<div className="location_title"><h1
+ref={ref}
+      className={
+        inView
+          ? "animate__animated animate__slideInLeft"
+          : "hidden"
+      }>UBICACION Y CONTACTO</h1></div>
 <div className="location_first">
     <div className="location_info">
         <div className="location_hours">

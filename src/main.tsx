@@ -9,6 +9,7 @@ import Team from './assets/components/Team.tsx'
 import Product from './assets/components/Product.tsx'
 import Location from './assets/components/Location.tsx'
 import Footer from './assets/components/Footer.tsx'
+import WhatsappButton from './assets/components/WhatsappButton.tsx'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Navbar/>
@@ -18,5 +19,6 @@ createRoot(document.getElementById('root')!).render(
     <Product/>
     <Location/>
     <Footer/>
+    <WhatsappButton/>
   </StrictMode>,
 )
