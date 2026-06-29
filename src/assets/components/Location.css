@@ -1,0 +1,120 @@
+.location_container{
+ width: 100%;
+padding: 20px 300px;
+box-sizing: border-box;
+height: 900px;
+background-color: rgb(19, 16, 14);   
+}
+.location_pretitle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.location_pretitle p{
+
+  color: var(--marron-color);
+}
+.location_title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.location_title h1{
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    margin: 0px;
+    font-size: 45px;
+}
+.location_first{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 25px;
+    height: auto;
+}
+.location_info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.direccion_telefono{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+.location_direccion{
+    border: 1px solid rgb(47, 47, 47);
+    background-color: rgb(10, 10, 10);;
+   width: 275px;
+   height: 119px;
+   padding: 20px;
+}
+.location_telephone{
+    border: 1px solid rgb(47, 47, 47);
+     background-color: rgb(10, 10, 10);
+    width: 275px;
+   height: 119px;
+   padding: 20px;
+}
+.mail_horario{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+.location_email{
+    border: 1px solid rgb(47, 47, 47);
+     background-color: rgb(10, 10, 10);;
+   width: 275px;
+   height: 119px;
+   padding: 20px;
+}
+.location_horario{
+    border: 1px solid rgb(47, 47, 47);
+     background-color: rgb(10, 10, 10);;
+    width: 275px;
+   height: 119px;
+   padding: 20px;
+}
+.location_map{
+    width: 50%;
+}
+.location_hours{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.location_hours h3{
+    color: white;
+}
+.location_hours p{
+    color: grey;
+}
+.location_contact{
+    background-color: rgb(10, 10, 10);
+    border: 1px solid rgb(47, 47, 47);
+    color: rgb(255, 255, 255);
+    height: auto;
+    padding: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.location_contact h2{
+    color: white;
+}
+.ico{
+    display: flex;
+    align-items: center;
+    gap:10px;    
+}
+.ico img{
+    width: 25px;
+    height: 25px;   
+}

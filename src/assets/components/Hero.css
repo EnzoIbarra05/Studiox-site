@@ -110,3 +110,6 @@ line-height: 0.3;
     color: grey;
     font-size: 14px;
 }
+.h1_animado{
+    animation-duration: 4s;
+}

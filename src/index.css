@@ -7,3 +7,6 @@ body {
   margin: 0;
    font-family: "Google Sans", sans-serif;
 }
+.hidden {
+  opacity: 0;
+}

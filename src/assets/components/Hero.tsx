@@ -10,7 +10,7 @@ function Hero (){
         <h5>BARBERIA E IMAGEN</h5>
     </div>
     <div className="hero_title">
-        <h1>ESTILO CLÁSICO,<br /><span className="precision">PRECISIÓN</span> <br />MODERNA</h1>
+        <h1 className="h1_animado animate__animated animate__fadeIn">ESTILO CLÁSICO,<br /><span className="precision">PRECISIÓN</span> <br />MODERNA</h1>
     </div>
     <div className="hero_paragraph"> <p>En STUDIOX combinamos la tradición de la barbería de siempre con técnicas y diseño de vanguardia. Cortes, afeitado y cuidado masculino para que luzcas tu mejor imagen.</p></div>
     <div className="hero_buttons">

@@ -2,12 +2,27 @@ import "./Team.css"
 import datas from "../../data/trabajadores.json";
 import flecha from "./../../../public/img/flecha-correcta.png"
 import tijera from "./../../../public/img/tijeras.png"
+import { useInView } from "react-intersection-observer";
 export default function Team(){
+      const { ref, inView } = useInView({
+    triggerOnce: true, // solo una vez
+    threshold: 0.2     // 20% visible
+  });
     return(<>
     <div className="team_container">
     
-    <div className="team_protitle"><p>EL EQUIPO</p></div>
-    <div className="team_title"><h1>NUESTROS BARBEROS</h1></div>
+    <div className="team_protitle"><p ref={ref}
+      className={
+        inView
+          ? "animate__animated animate__slideInLeft"
+          : ""
+      }>EL EQUIPO</p></div>
+    <div className="team_title"><h1 ref={ref}
+      className={
+        inView
+          ? "animate__animated animate__slideInLeft"
+          : ""
+      }>NUESTROS BARBEROS</h1></div>
     <div className="team_subtitle"><p>Profesionales apasionados por el oficio. Conoce a las manos expertas detrás de <br /> cada corte.</p></div>
     <div className="team_cards">
     {datas.map(data => (

@@ -1,17 +1,35 @@
 import "./Galery.css"
-
+import { useInView } from "react-intersection-observer";
 function Galery(){
+    const { ref, inView } = useInView({
+    triggerOnce: true, // solo una vez
+    threshold: 0.2     // 20% visible
+  });
     return( 
     <>
     <div className="galery_container">
         <div className="galery_pretitle">
-            <p>NUESTRO TRABAJO </p>
+            <p  ref={ref}
+      className={
+        inView
+          ? "animate__animated animate__slideInLeft"
+          : "hidden"
+      }>NUESTRO TRABAJO </p>
         </div>
         <div className="galery_title">
-            <h1>GALERIA DEL ESTUDIO</h1>
+                <h1
+      ref={ref}
+      className={
+        inView
+          ? "animate__animated animate__slideInLeft"
+          : "hidden"
+      }
+    >
+      GALERIA DEL ESTUDIO
+    </h1>
             <p>Una muestra de los cortes, afeitados y el ambiente que define a STUDIOX. Cada detalle cuenta para conseguir tu mejor imagen.</p>
         </div>
-        <div className="galery_images">
+        <div className="galery_images ">
             <div className="big_photo">
               
             </div>
