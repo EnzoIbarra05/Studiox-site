@@ -9,6 +9,7 @@ export default function Team(){
     threshold: 0.2     // 20% visible
   });
     return(<>
+    <section id="team">
     <div className="team_container">
     
     <div className="team_protitle"><p ref={ref}
@@ -39,6 +40,6 @@ export default function Team(){
       ))}
     </div>
     </div>
-    
+    </section>
     </>)
 }

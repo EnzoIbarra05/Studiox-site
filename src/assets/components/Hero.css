@@ -8,8 +8,41 @@
     height:900px ;
     box-sizing: border-box;
     padding: 80px 300px;
+    display: flex;
+
     
 }
+.hero_left{
+    width: 50%;
+}
+.hero_logo{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    padding-top: 80px;
+    position: relative;
+}
+
+.hero_logo img{
+    width: 400px;
+    height: 400px;
+    animation: floatLogo 5s ease-in-out infinite;
+    filter:
+        drop-shadow(0 0 20px rgba(223, 169, 82, 0.667))
+        drop-shadow(0 0 50px rgba(212,174,111,.15));
+    transition: .4s;
+}
+
+@keyframes floatLogo{
+    0%,100%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-12px);
+    }
+}
+
 .hero_pretitle{
     display: flex;
     justify-content: start;

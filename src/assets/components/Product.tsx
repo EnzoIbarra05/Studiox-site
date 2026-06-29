@@ -7,6 +7,8 @@ export default function Product(){
     threshold: 0.2     // 20% visible
   });
     return(<>
+    <section id="product">
+
     <div className="product_container">
       <div className="product_pretitle"><p ref={ref}
       className={
@@ -39,7 +41,7 @@ export default function Product(){
       ))}
     </div>
     </div>
-    
+    </section>
     
     
     </>)

@@ -1,34 +1,19 @@
 [
   {
     "id": 1,
-    "url": "/img/barber-1.png",
-    "name": "MARCO RIOS",
+    "url": "/img/barber-1.jpeg",
+    "name": "FACUNDO PEÑALVER",
     "function": "MAESTRO BARBERO - FUNDADOR",
     "tipe":"Cortes clasicos y degradados",
     "description":"Más de 15 años perfilando estilos. Especialista en el corte clásico y el afeitado a navaja."
   },
   {
     "id": 2,
-    "url": "/img/barber-2.png",
-    "name": "LUCIA FERRER",
+    "url": "/img/barber-2.jpeg",
+    "name": "GONZALO",
     "function": "ESTILISTA - IMAGEN",
     "tipe":"Asesoría de imagen y color",
     "description":"Transforma cada visita en una experiencia de imagen completa, del corte al estilismo final."
-  },
-  {
-    "id": 3,
-    "url": "/img/barber-3.png",
-    "name": "DANI VEGA",
-    "function": "BARBERO - DISENO",
-    "tipe":"Fades y diseños con cuchilla",
-    "description":"El más creativo del equipo. Domina los degradados de precisión y los diseños personalizados."
-  },
-  {
-    "id": 4,
-    "url": "/img/barber-4.png",
-    "name": "ANDRES SOTO",
-    "function": "MAESTRO BARBERO",
-    "tipe":"Afeitado clásico y barba",
-    "description":"Guardián de la tradición. Su afeitado con toalla caliente y navaja es todo un ritual. Un genio"
   }
+  
 ]

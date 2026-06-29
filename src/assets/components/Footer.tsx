@@ -11,7 +11,7 @@ export default function Footer() {
                  <h1><span className="logo_x">X</span>STUDIOX</h1>
                  <p>BARBERIA E IMAGEN</p>
                  <div className="footer_redes">
-                    <a href=""><div className="icono"><img src={instagram} alt="" /></div></a>
+                    <a href="https://www.instagram.com/studiox.barberia/" target="_blanc" rel="noopener noreferrer"><div className="icono"><img src={instagram} alt="" /></div></a>
                     <a href=""><div className="icono"><img src={facebook} alt="" /></div></a>
                     <a href=""><div className="icono"><img src={whatsapp} alt="" /></div></a>
                  </div>

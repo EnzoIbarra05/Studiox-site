@@ -6,6 +6,7 @@ import reloj from "./../../../public/img/reloj.png";
 export default function Location(){
 return(
 <>
+<section id="location">
 <div className="location_container">
 <div className="location_pretitle"><p>VISITANOS</p></div>
 <div className="location_title"><h1>UBICACION Y CONTACTO</h1></div>
@@ -47,6 +48,7 @@ return(
     </div>
 </div>
 </div>
+</section>
 </>)
 
 }

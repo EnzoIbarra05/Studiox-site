@@ -7,6 +7,7 @@ function Galery(){
   });
     return( 
     <>
+    <section id="galery">
     <div className="galery_container">
         <div className="galery_pretitle">
             <p  ref={ref}
@@ -44,6 +45,7 @@ function Galery(){
             </div>
         </div>
     </div>
+    </section>
     </>
     )
 }
