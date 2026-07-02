@@ -1,6 +1,7 @@
 :root{
   --marron-color: #D4AE6F;
   --seccion-color:#8f8f8f;
+  --page-padding:300px;
 }
 body {
   background-color: rgb(12, 12, 12);

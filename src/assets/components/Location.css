@@ -1,120 +1,192 @@
 .location_container{
- width: 100%;
-padding: 20px 300px;
-box-sizing: border-box;
-height: 900px;
-background-color: rgb(19, 16, 14);   
+    width: 100%;
+    padding: 20px 300px;
+    box-sizing: border-box;
+    background-color: rgb(19,16,14);
 }
+
 .location_pretitle{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display:flex;
+    justify-content:center;
 }
+
 .location_pretitle p{
-
-  color: var(--marron-color);
+    color: var(--marron-color);
 }
+
 .location_title{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display:flex;
+    justify-content:center;
+}
+
+.location_title h1{
+    color:white;
+    font-family:"Bebas Neue",sans-serif;
+    margin:0;
+    font-size:45px;
+}
+
+.location_first{
+    display:flex;
+    justify-content:space-between;
+    gap:25px;
+    margin-top:40px;
+}
+
+/* ================= INFORMACIÓN ================= */
+
+.location_info{
+    width:50%;
+    display:flex;
+    flex-direction:column;
+}
+
+.location_hours{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+.location_hours a{
+    color: grey;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.location_hours a:hover{
+    color: var(--marron-color);
+}
+.direccion_telefono,
+.mail_horario{
+    display:flex;
+    gap:25px;
+}
+
+.location_direccion,
+.location_telephone,
+.location_email,
+.location_horario{
+
+    flex:1;
+
+    border:1px solid rgb(47,47,47);
+    background:rgb(10,10,10);
+
+    padding:20px;
+}
+
+.location_hours h3{
+    color:white;
+}
+
+.location_hours p{
+    color:grey;
+    line-height:1.5;
+}
+
+.location_contact{
+
+    margin-top:25px;
+
+    background:rgb(10,10,10);
+    border:1px solid rgb(47,47,47);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:44px;
 
 }
-.location_title h1{
-    color: white;
-    font-family: "Bebas Neue", sans-serif;
-    margin: 0px;
-    font-size: 45px;
-}
-.location_first{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
-    gap: 25px;
-    height: auto;
-}
-.location_info{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    
-    
-}
-.direccion_telefono{
-    display: flex;
-    justify-content: space-between;
-    gap: 25px;
-}
-.location_direccion{
-    border: 1px solid rgb(47, 47, 47);
-    background-color: rgb(10, 10, 10);;
-   width: 275px;
-   height: 119px;
-   padding: 20px;
-}
-.location_telephone{
-    border: 1px solid rgb(47, 47, 47);
-     background-color: rgb(10, 10, 10);
-    width: 275px;
-   height: 119px;
-   padding: 20px;
-}
-.mail_horario{
-    display: flex;
-    justify-content: space-between;
-    gap: 25px;
-}
-.location_email{
-    border: 1px solid rgb(47, 47, 47);
-     background-color: rgb(10, 10, 10);;
-   width: 275px;
-   height: 119px;
-   padding: 20px;
-}
-.location_horario{
-    border: 1px solid rgb(47, 47, 47);
-     background-color: rgb(10, 10, 10);;
-    width: 275px;
-   height: 119px;
-   padding: 20px;
-}
-.location_map{
-    width: 50%;
-}
-.location_hours{
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-}
-.location_hours h3{
-    color: white;
-}
-.location_hours p{
-    color: grey;
-}
-.location_contact{
-    background-color: rgb(10, 10, 10);
-    border: 1px solid rgb(47, 47, 47);
-    color: rgb(255, 255, 255);
-    height: auto;
-    padding: 44px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 25px;
-}
-.location_contact h2{
-    color: white;
-}
+
 .ico{
-    display: flex;
-    align-items: center;
-    gap:10px;    
+    display:flex;
+    align-items:center;
+    gap:10px;
 }
+
 .ico img{
-    width: 25px;
-    height: 25px;   
+    width:25px;
+    height:25px;
+}
+
+/* ================= MAPA ================= */
+
+.location_map{
+    width:50%;
+}
+
+.location_map iframe{
+    width:100%;
+    height:100%;
+    min-height:544px;
+    border:none;
+}
+
+/* ========================================= */
+/* =============== RESPONSIVE ============== */
+/* ========================================= */
+
+/* Notebook */
+
+@media (max-width:1200px){
+
+    .location_container{
+        padding:20px 80px;
+    }
+
+}
+
+/* Tablet */
+
+@media (max-width:992px){
+
+    .location_container{
+        padding:20px 40px;
+    }
+
+    .location_first{
+        flex-direction:column;
+    }
+
+    .location_info,
+    .location_map{
+        width:100%;
+    }
+
+    .location_map iframe{
+        min-height:450px;
+    }
+
+}
+
+/* Celular */
+
+@media (max-width:576px){
+
+    .location_container{
+        padding:20px;
+    }
+
+    .location_title h1{
+        font-size:38px;
+        text-align:center;
+    }
+
+    .direccion_telefono,
+    .mail_horario{
+        flex-direction:column;
+    }
+
+    .location_contact{
+        padding:30px;
+    }
+
+    .location_contact h1{
+        font-size:32px;
+    }
+
+    .location_map iframe{
+        min-height:320px;
+    }
+
 }
