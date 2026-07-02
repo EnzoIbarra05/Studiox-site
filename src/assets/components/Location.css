@@ -97,6 +97,10 @@
     padding:44px;
 
 }
+.location_contact h1{
+    color: white;
+}
+
 
 .ico{
     display:flex;
