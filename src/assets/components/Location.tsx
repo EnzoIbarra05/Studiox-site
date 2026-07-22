@@ -83,8 +83,8 @@ export default function Location() {
                     <h3>EMAIL</h3>
                   </div>
 
-                  <a href="mailto:hola@studiox.com.ar">
-                    hola@studiox.com.ar
+                  <a href="mailto:studiox.barberia@gmail.com">
+                    studiox.barberia@gmail.com
                   </a>
                 </div>
 
