@@ -110,8 +110,15 @@ margin: 10px 0px;
 }
 .hero_button1{
     background-color: var(--marron-color);
+    color: black;
     font-weight: bold;
     border: none;
+
+    appearance: none;
+    -webkit-appearance: none;
+
+    padding: 20px 40px;
+    border-radius: 5px;
 }
 .hero_button1:hover{
     cursor: pointer;

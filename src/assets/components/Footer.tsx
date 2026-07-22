@@ -1,6 +1,5 @@
 import "./Footer.css";
 import instagram from "./../../../public/img/igrey.png";
-import facebook from "./../../../public/img/fgrey.png";
 import whatsapp from "./../../../public/img/wgrey.png";
 
 export default function Footer() {
@@ -20,7 +19,7 @@ export default function Footer() {
           <div className="footer_redes">
 
             <a
-              href="https://www.instagram.com/studiox.barberia/"
+              href="https://www.instagram.com/studiox.barberia?igsh=cTN1enFqZTAxaG1n"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -30,17 +29,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="icono">
-                <img src={facebook} alt="Facebook" />
-              </div>
-            </a>
-
-            <a
-              href="https://wa.me/542616274027"
+              href="https://wa.link/xi3nzi"
               target="_blank"
               rel="noopener noreferrer"
             >

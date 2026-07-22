@@ -56,9 +56,9 @@ export default function Location() {
                   </div>
 
                   <p>
-                    Calle Mayor 24, Bajo
+                    Olascoaga 415
                     <br />
-                    28013 Madrid, España
+                   Mendoza Ciudad, Argentina.
                   </p>
                 </div>
 
@@ -68,8 +68,8 @@ export default function Location() {
                     <h3>TELÉFONO</h3>
                   </div>
 
-                  <a href="tel:+542616274027">
-                    +54 261 627-4027
+                  <a href="tel:+542613039659">
+                    +54 261 303-9659
                   </a>
                 </div>
 
@@ -95,8 +95,11 @@ export default function Location() {
                   </div>
 
                   <p>
-                    El horario varía según disponibilidad.
-                  </p>
+  
+  <b>Lun. a Vie.</b> 9:00 a. m. – 9:00 p. m. <br />
+  <b>Sáb.</b> 10:00 a. m. – 4:00 p. m. <br />
+  <b>Dom.</b> Cerrado
+</p>
                 </div>
 
               </div>

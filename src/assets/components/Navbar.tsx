@@ -22,6 +22,7 @@ function Navbar() {
                 <a href="#location" onClick={() => setMenuOpen(false)}>CONTACTO</a>
 
                 <a
+                    className="reserve_link"
                     href="https://www.tuturno.io/studiox1"
                     target="_blank"
                     rel="noopener noreferrer"
