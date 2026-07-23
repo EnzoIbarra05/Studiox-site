@@ -2,7 +2,7 @@
   {
     "id": 1,
     "url": "/img/product-pomade.jpeg",
-    "name": "POMADA MATE",
+    "name": "POMADA",
     "price": "Consultar",
     "description":"Fijación fuerte, acabado mate. Para peinados con cuerpo y control todo el día."
   },
@@ -13,18 +13,18 @@
     "price": "Consultar",
     "description":"Hidrata, suaviza y aporta brillo natural. Aroma amaderado de larga duración."
   },
- {
-    "id": 3,
-    "url": "/img/product-talco.jpeg",
-    "name": "SHAMPOO PREMIUM",
-    "price": "Consultar",
-    "description":"Limpieza profunda sin resecar. Apto para uso diario en todo tipo de cabello."
-  },
+{
+  "id": 3,
+  "url": "/img/product-talco.jpeg",
+  "name": "POLVO TEXTURIZADOR",
+  "price": "Consultar",
+  "description": "Aporta volumen, textura y un acabado natural. Ideal para peinados con efecto mate y mayor fijación."
+},
   {
     "id": 4,
     "url": "/img/product-kit.jpeg",
-    "name": "KIT DE AFEITADO",
+    "name": "KIT BARBER",
     "price": "Consultar",
-    "description":"Estuche de piel con navaja, brocha y peine. El regalo perfecto para el caballero."
+    "description":"Jabon natural y talco extra fino para mejorar y dar calidez a tu imagen"
   }
 ]
